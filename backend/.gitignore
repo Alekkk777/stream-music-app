@@ -1,0 +1,24 @@
+# Ambiente virtuale
+venv/
+env/
+.env/
+__pycache__/
+*.py[cod]
+*.class
+
+# File di configurazione sensibili
+.env
+*.pem
+*.key
+
+# Database e storage locali
+*.db
+*.sqlite3
+music_app.db
+music-files/
+temp_downloads/
+
+# File temporanei
+*.log
+temp/
+.DS_Store
