@@ -10,9 +10,7 @@ import 'package:music_stream_app/models/playlist.dart';
 
 class ApiService {
   // URL di base dell'API
-  final String _baseUrl = 'http://89.168.26.70:8000/api';
-  // Per dispositivi fisici o iOS, usa l'IP della tua macchina
-  // final String _baseUrl = 'http://192.168.1.x:8000/api';
+
 
   // Intestazioni HTTP comuni
   final Map<String, String> _headers = {
